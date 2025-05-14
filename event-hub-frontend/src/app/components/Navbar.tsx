@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import { CiUser } from "react-icons/ci";
 import QuickSettings from './QuickSettings';
 import { LuPartyPopper } from "react-icons/lu";
-import { FaCaretUp } from 'react-icons/fa'; // For the "poke out" arrow
-import { AiOutlineHome, AiOutlineSetting } from 'react-icons/ai'; // Example menu icons
 import { CiFilter } from "react-icons/ci";
 
 

@@ -16,6 +16,7 @@ const EventCard = () => {
       <div className="p-4">
         <h2 className="text-lg font-semibold mb-1 md:text-xl md:mb-2">{"Movies In the Park"}</h2>
         <p className="text-gray-600 text-xs mb-1 md:text-sm md:mb-2">{"4:00 PM - 6:00 PM"}</p>
+        <p className="text-gray-600 text-xs md:text-sm">{"Centennial Park"}</p>
         <div className="flex flex-col items-stretch gap-2 mt-2 md:flex-row md:items-center md:justify-between">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline text-sm">
             View Details

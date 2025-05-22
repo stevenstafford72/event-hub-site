@@ -14,6 +14,8 @@ type EventProps = {
     location: string;
     category?: string;
     image?: string;
+    time_start: string;
+    location_name: string;
   };
 };
 
@@ -63,7 +65,13 @@ const EventCard = ({ event }: EventProps) => {
         <h2 className="text-xl font-semibold mb-2 line-clamp-2">
           {event.title}
         </h2>
-        <p className="text-gray-700 text-sm mb-2">{event.time} - {event.location}</p>
+        <h2 className="text-lg font-semibold mb-2 line-clamp-2">
+         Start Time:  {event.time_start}
+        </h2>
+        <p className='line-clamp-2'> 
+          {event.location_name}
+        </p>
+        <p className="text-gray-700 text-sm mb-2">{event.time}  {event.location}</p>
         <div className="flex-grow" />
         <div className="mt-4 flex items-center justify-between">
           <Link href={`/events/${event.id}`} className="w-full">
